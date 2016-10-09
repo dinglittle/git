@@ -33,5 +33,8 @@ git log
 下载项目
 git clone  地址
 
-推送到远程
+进去到 clone 的文件夹
+cd 目录
+
+推送到远程 ( 默认 有origin  和 master 分支)
 git push origin master 

@@ -1,5 +1,3 @@
-# git
-
 git 使用
 
 .gitgnore 配置 git 忽略文件
@@ -17,7 +15,7 @@ git config --global user.name
 创建版本库
 1.先建空目录
 2.git init  初始化仓库
-3.
+3.进入 目录操作
 
 touch 1.txt  
 新建1.txt文件
@@ -40,3 +38,29 @@ cd 目录
 
 推送到远程 ( 默认 有origin  和 master 分支)
 git push origin master 
+
+
+git 克隆下来 少文件
+直接 下载压缩包
+
+
+===
+git 创建远程分支
+
+1)先在本地建分支
+git branch 分支名
+
+2)切换到新的分支
+git checkout 分支名
+
+3)将新的分支发布在github上
+git push origin 分支名
+
+====
+在本地删除分支
+gir branch -d 分支名 
+这里注意,要删除的分支不能是当前分支
+
+====
+删除远程分支
+git push origin :分支名

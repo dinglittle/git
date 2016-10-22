@@ -15,7 +15,7 @@ git config --global user.name
 创建版本库
 1.先建空目录
 2.git init  初始化仓库
-3.
+3.进入 目录操作
 
 touch 1.txt  
 新建1.txt文件

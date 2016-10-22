@@ -60,3 +60,7 @@ git push origin 分支名
 在本地删除分支
 gir branch -d 分支名 
 这里注意,要删除的分支不能是当前分支
+
+====
+删除远程分支
+git push origin :分支名

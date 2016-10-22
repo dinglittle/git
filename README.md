@@ -64,3 +64,7 @@ gir branch -d 分支名
 ====
 删除远程分支
 git push origin :分支名
+
+====
+合并分支  ( 将 develop 分支 合并到当前分支 )
+git merge develop

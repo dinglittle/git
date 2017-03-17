@@ -17,6 +17,9 @@ git config --global user.name
 2.git init  初始化仓库
 3.进入 目录操作
 
+添加远程项目地址
+git remote add origin 地址
+
 touch 1.txt  
 新建1.txt文件
 

@@ -1,6 +1,6 @@
-git 使用
+## git 使用
 
-.gitgnore 配置 git 忽略文件
+#### .gitgnore 配置 git 忽略文件
 ```
 node_modules
 .vscode

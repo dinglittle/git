@@ -1,6 +1,7 @@
 ## git 使用
 
 ### [git-rebase](./git-rebase.md)
+### [回滚代码](#回滚代码)
 
 #### .gitgnore 配置 git 忽略文件
 ```
@@ -101,7 +102,7 @@ git merge develop
 ```
 
 ---
-
+<span id="回滚代码"></span>
 #### git下回滚之前的 代码
 业务需求:
 	需要找到之前的指定提交代码

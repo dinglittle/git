@@ -1,5 +1,7 @@
 ## git 使用
 
+### [git-rebase](./git-rebase.md)
+
 #### .gitgnore 配置 git 忽略文件
 ```
 node_modules

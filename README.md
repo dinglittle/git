@@ -71,3 +71,5 @@ git push origin :分支名
 ====
 合并分支  ( 将 develop 分支 合并到当前分支 ,注意 无法将 master主分支 合并到其他分支 )
 git merge develop
+
+## git commit 规范

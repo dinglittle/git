@@ -73,3 +73,23 @@ git push origin :分支名
 git merge develop
 
 ## git commit 规范
+https://github.com/commitizen/cz-cli
+
+### 首先，安装Commitizen cli工具：
+npm install commitizen -g
+
+### 接下来，通过键入以下内容来初始化项目以使用cz-conventional-changelog适配器：
+
+commitizen init cz-conventional-changelog --save-dev --save-exact
+
+### 或者 yarn
+
+commitizen init cz-conventional-changelog --yarn --dev --exact
+
+
+
+### 创建 .czrc 文件
+
+{ "path": "cz-conventional-changelog" }
+
+
